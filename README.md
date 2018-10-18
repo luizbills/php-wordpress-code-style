@@ -35,13 +35,11 @@ if ( $condition )
 Don't use braces in templates.
 
 ```php
-<!-- Right -->
-<?php if ( $condition ) : ?>
+<?php if ( $condition ) : ?> <!-- Right -->
 	<p>Lorem ipsum</p>
 <?php endif; ?>
 
-<!-- Wrong -->
-<?php if ( $condition ) { ?>
+<?php if ( $condition ) { ?> <!-- Wrong -->
 	<p>Lorem ipsum</p>
 <?php } ?>
 ```
