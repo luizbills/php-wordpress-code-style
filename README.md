@@ -186,6 +186,21 @@ $map = array(
 );
 ```
 
+## Booleans and Null
+
+Use lowercase versions.
+
+```php
+// Right
+$var = true;
+$var = false;
+$var = null;
+
+// Wrong
+$var = TRUE;
+$var = FALSE;
+$var = NULL;
+```
 ## Swicth block
 
 for `switch` blocks, follow this style:
