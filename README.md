@@ -91,7 +91,9 @@ if ( $foo == $bar ) { ... // Right
 
 if ( $foo==$bar ) { ... // Wrong
 
-if ( ! $foo ) { ...
+if ( ! $foo ) { ... // Right
+
+if ( !$foo ) { ... // Wrong
 ```
 
 Always put spaces on both sides of string concatenation.
