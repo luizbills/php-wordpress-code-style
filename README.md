@@ -168,6 +168,24 @@ $x = $foo[ 'bar' ];
 $x = $foo[$var];
 ```
 
+## Arrays
+
+Always use square bracket syntax.
+
+```php
+// Right
+$arr = [1, 2, 3];
+$map = [
+	'foo' => 'bar'
+];
+
+// Wrong
+$arr = array( 1, 2, 3 );
+$map = array(
+	'foo' => 'bar'
+);
+```
+
 ## Swicth block
 
 for `switch` blocks, follow this style:
