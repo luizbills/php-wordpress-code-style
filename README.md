@@ -229,7 +229,7 @@ switch ( $var ) {
 Use lowercase letters in variable, action, filter, and function names (never camelCase).
 
 ```php
-function some_name( $some_variable ) {
+function some_name ( $some_variable ) {
 	$foo_bar = 1;
 	...
 }
