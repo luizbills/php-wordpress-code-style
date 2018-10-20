@@ -140,7 +140,7 @@ foreach ( $foo as $bar => $baz ) {
 }
 
 // Wrong
-if($condition ){
+if($condition){
 	...
 }
 
