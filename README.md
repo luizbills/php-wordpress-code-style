@@ -59,7 +59,7 @@ Never use shorthand PHP start tags. Always use full PHP tags.
 
 <!-- Wrong -->
 <? action(); ?>
-<?= $var() ?>
+<?= $var ?>
 ```
 
 ## Remove Trailing Spaces
