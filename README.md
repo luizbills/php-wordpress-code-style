@@ -76,7 +76,7 @@ $arr = [1, 2, 3, 4]; // Right
 $arr = [1,2,3,4]; // Wrong
 ```
 
-Always put spaces on assignment operators.
+Always put spaces on both sides of assignment operators.
 
 ```php
 $var = true; // Right
