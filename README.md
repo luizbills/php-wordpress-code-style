@@ -71,7 +71,7 @@ Remove trailing whitespace at the end of each line of code and in empty lines. O
 Always put spaces after commas.
 
 ```php
-$arr = [1, 2, 3, 4]; // Right
+$arr = [ 1, 2, 3, 4 ]; // Right
 
 $arr = [1,2,3,4]; // Wrong
 ```
@@ -170,11 +170,11 @@ $x = $foo[$var];
 
 ## Arrays
 
-Always use square bracket syntax.
+Always use square bracket syntax and spaces on both sides of the opening and closing brackets.
 
 ```php
 // Right
-$arr = [1, 2, 3];
+$arr = [ 1, 2, 3 ];
 $map = [
 	'foo' => 'bar'
 ];
