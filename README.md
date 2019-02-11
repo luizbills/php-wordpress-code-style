@@ -53,13 +53,11 @@ Don't use braces in templates.
 Never use shorthand PHP start tags. Always use full PHP tags.
 
 ```php
-<!-- Right -->
-<?php action(); ?>
-<?php echo $var; ?>
 
-<!-- Wrong -->
-<? action(); ?>
-<?= $var ?>
+<?php action(); ?> <!-- Right -->
+
+<? action(); ?> <!-- Wrong -->
+<?= $var ?> <!-- Wrong -->
 ```
 
 ## Remove Trailing Spaces
@@ -239,12 +237,6 @@ Constants should be in all upper-case with underscores separating words:
 
 ```php
 define( 'FOO_BAR', true );
-```
-
-Files should be named descriptively using lowercase letters. Hyphens should separate words.
-
-```
-my-plugin-file.php
 ```
 
 Class names should use capitalized words separated by underscores. Any acronyms should be all upper case.
