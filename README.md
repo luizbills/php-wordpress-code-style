@@ -44,21 +44,40 @@ Don't use braces in templates.
 <?php } ?>
 ```
 
+## `if|else|elseif` in new line
+
+```php
+// Wrong
+if ( $condition ) {
+
+} else {
+
+}
+
+// Right
+if ( $condition ) {
+
+}
+else {
+
+}
+```
+
 ## Use `elseif`, not `else if`
 
 `else if` is not compatible with the *colon syntax* for `if|elseif` blocks. For this reason, use `elseif` for conditionals.
 
 ## No Shorthand PHP Tags
 
-Never use shorthand PHP start tags. Always use full PHP tags.
+Never use shorthand PHP start tags (`<? ?>`). Always use full PHP tags.
 
 ```php
-
 <?php action(); ?> <!-- Right -->
 
 <? action(); ?> <!-- Wrong -->
-<?= $var ?> <!-- Wrong -->
 ```
+
+> Note: Since PHP 5.4.0, `<?=` is always available. So, you can use `<?php echo $var; ?>` or `<?= $var ?>`.
 
 ## Remove Trailing Spaces
 
@@ -107,10 +126,12 @@ When defining functions:
 ```php
 // Right
 function foo ( $bar = 1 ) {
+
 }
 
 // Wrong
 function foo($bar=1) {
+
 }
 ```
 
