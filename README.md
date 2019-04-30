@@ -44,13 +44,13 @@ Don't use braces in templates.
 <?php } ?>
 ```
 
-## `if|else|elseif` in new line
+## `elseif` in new line
 
 ```php
 // Wrong
 if ( $condition ) {
 
-} else {
+} elseif ( $another_condition ) {
 
 }
 
@@ -58,7 +58,14 @@ if ( $condition ) {
 if ( $condition ) {
 
 }
-else {
+elseif ( $another_condition ) {
+
+}
+
+// Right
+if ( $condition ) {
+
+} else { // `else` is same line
 
 }
 ```
