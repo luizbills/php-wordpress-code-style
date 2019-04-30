@@ -77,7 +77,7 @@ Never use shorthand PHP start tags (`<? ?>`). Always use full PHP tags.
 <? action(); ?> <!-- Wrong -->
 ```
 
-> Note: Since PHP 5.4.0, `<?=` is always available. So, you can use `<?php echo $var; ?>` or `<?= $var ?>`.
+> Note: Since PHP 5.4.0, `<?=` (short echo tag) is always available. So, use `<?= $var ?>` instead of `<?php echo $var; ?>`.
 
 ## Remove Trailing Spaces
 
